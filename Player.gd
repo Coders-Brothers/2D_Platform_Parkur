@@ -27,3 +27,5 @@ func _process(_delta):
 		
 	velocity.x = direction * SPEED 
 	velocity = move_and_slide(velocity, Vector2(0,-1))
+	
+	"""hello world"""
